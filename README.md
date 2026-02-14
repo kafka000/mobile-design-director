@@ -12,7 +12,8 @@
   <a href="https://agentskills.io">Agent Skills</a> ·
   <a href="#installation">Install</a> ·
   <a href="#what-it-does">What It Does</a> ·
-  <a href="#supported-stacks">Stacks</a>
+  <a href="#supported-stacks">Stacks</a> ·
+  <a href="./README_CN.md">中文文档</a>
 </p>
 
 ---
