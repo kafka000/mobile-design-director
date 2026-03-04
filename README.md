@@ -72,7 +72,7 @@ The skill automatically activates when you mention:
 
 ## Reference Documents
 
-The skill uses four reference guides, loaded on-demand for relevant audits:
+The skill uses five reference guides, loaded on-demand for relevant audits:
 
 ### `visual-architecture.md`
 Color token pipelines (three-layer Primitive→Semantic→Component), the 90/10 color allocation rule, typography tension (Anchor + Whisper pattern), outer-loose inner-tight spacing philosophy, sub-pixel surface craftsmanship (hairline borders, restrained glassmorphism), and design-to-engineering alignment (token mapping, component state matrices).
@@ -86,6 +86,9 @@ Spring presets (Snappy/Gentle/Bouncy/Heavy/Micro), haptic feedback mapping, stag
 ### `platform-guidelines.md`
 Apple HIG touch targets & safe areas, Material 3 comparison matrix, React Native/NativeWind quick reference, KMP/CMP notes, and WCAG accessibility non-negotiables — all with multi-stack code.
 
+### `asset-strategy.md`
+Dual-track imagery system: photography staging (transparent cutouts, system-controlled backdrops, out-of-bounds composition), functional vs. expressive iconography separation, shape language with exaggerated radii, and asset loading engineering (aspect-ratio placeholders, fade-in transitions, ceremonial reveals with haptics).
+
 ---
 
 ## Skill Structure
@@ -95,6 +98,7 @@ mobile-design-director/
 ├── SKILL.md                         # Entry point with activation rules & workflow
 └── references/
     ├── visual-architecture.md       # Color tokens, typography tension, surface quality
+    ├── asset-strategy.md            # Photography, icons, imagery, loading
     ├── aesthetic-formulas.md        # Spacing, typography, depth, color
     ├── motion-physics.md            # Spring, haptics, choreography, scale
     └── platform-guidelines.md       # HIG, Material 3, a11y, cross-platform
@@ -130,6 +134,7 @@ How should I implement scale-on-press for this button in SwiftUI?
 5. **90/10 Color Rule** — 90% neutrals for structure, 10% intent color for CTA and state.
 6. **Typographic Tension** — Extreme contrast between hero data and supporting labels.
 7. **1px Craftsmanship** — Quality lives in hairline borders, layered shadows, and restrained glass.
+8. **Dual-Track Assets** — Functional icons anchor professionalism; expressive assets deliver dopamine. Never mix.
 
 ---
 

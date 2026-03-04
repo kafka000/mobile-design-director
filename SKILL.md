@@ -43,10 +43,13 @@ Use this skill when:
 
 9. **1px Craftsmanship:** Quality lives in hairline borders, multi-layered shadows, and restrained glassmorphism.
 
+10. **Dual-Track Assets:** Functional icons (monochrome, geometric) anchor professionalism; expressive assets (3D badges, illustrations) deliver dopamine. Never mix the two tracks in the same context.
+
 ## Quick Reference
 
 Read only what is needed for the current audit scope:
 - Visual architecture (color tokens, typography tension, surface quality): [references/visual-architecture.md](references/visual-architecture.md)
+- Asset strategy (photography, icons, imagery, loading): [references/asset-strategy.md](references/asset-strategy.md)
 - Aesthetic formulas (spacing, typography, depth): [references/aesthetic-formulas.md](references/aesthetic-formulas.md)
 - Motion physics (spring, haptics, choreography): [references/motion-physics.md](references/motion-physics.md)
 - Platform guidelines (HIG, Material 3, cross-platform): [references/platform-guidelines.md](references/platform-guidelines.md)
