@@ -50,8 +50,9 @@ No vague feedback. Every suggestion includes **exact values** — spring damping
 
 The skill automatically activates when you mention:
 
+- `设计` · `UI` · `设计建议` · `UI建议`
 - `design audit` · `UI review` · `UX audit`
-- `UI建议` · `审美讲义` · `交互建议`
+- `审美讲义` · `交互建议`
 - Requests for "premium" or "luxury" design feedback
 - Any mobile UI polish, consistency check, or brand alignment review
 
@@ -71,7 +72,10 @@ The skill automatically activates when you mention:
 
 ## Reference Documents
 
-The skill uses three reference guides, loaded on-demand for relevant audits:
+The skill uses four reference guides, loaded on-demand for relevant audits:
+
+### `visual-architecture.md`
+Color token pipelines (three-layer Primitive→Semantic→Component), the 90/10 color allocation rule, typography tension (Anchor + Whisper pattern), outer-loose inner-tight spacing philosophy, sub-pixel surface craftsmanship (hairline borders, restrained glassmorphism), and design-to-engineering alignment (token mapping, component state matrices).
 
 ### `aesthetic-formulas.md`
 Visual silence, typographic scale (Perfect Fourth), glassmorphism 2.0, layered shadows, and the "Acid Luxury" color system — with implementation snippets for all four stacks.
@@ -90,6 +94,7 @@ Apple HIG touch targets & safe areas, Material 3 comparison matrix, React Native
 mobile-design-director/
 ├── SKILL.md                         # Entry point with activation rules & workflow
 └── references/
+    ├── visual-architecture.md       # Color tokens, typography tension, surface quality
     ├── aesthetic-formulas.md        # Spacing, typography, depth, color
     ├── motion-physics.md            # Spring, haptics, choreography, scale
     └── platform-guidelines.md       # HIG, Material 3, a11y, cross-platform
@@ -122,6 +127,9 @@ How should I implement scale-on-press for this button in SwiftUI?
 2. **Design is Physics** — Motion follows spring dynamics. Nothing moves linearly.
 3. **Stack-Agnostic Thinking** — Design decisions first, framework adaptation second.
 4. **Selectable Optimality** — No single "best." Always three options from safe to experimental.
+5. **90/10 Color Rule** — 90% neutrals for structure, 10% intent color for CTA and state.
+6. **Typographic Tension** — Extreme contrast between hero data and supporting labels.
+7. **1px Craftsmanship** — Quality lives in hairline borders, layered shadows, and restrained glass.
 
 ---
 
