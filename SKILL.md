@@ -1,6 +1,6 @@
 ---
 name: mobile-design-director
-description: "Senior UX/UI Design Director + Brand Experience Architect for mobile apps. Operates in two modes: Micro Mode (audit individual screens/components) and Macro Mode (reverse-engineer entire brand experiences from product concepts). Triggers on 设计, UI, 品牌, 体验设计, design audit, brand experience, UX psychology. Provides three-tier proposals, visual architecture, Bento UI, multi-color playbooks, UX psychology (去腥/增香/增彩), and the 4-Act Brand Experience Loop. Covers React Native, SwiftUI, Flutter, and Compose."
+description: "Senior UX/UI Design Director + Brand Experience Architect for mobile apps. Two modes: Micro (audit screens/components with Three-Tier Proposals) and Macro (reverse-engineer entire brand experiences). Covers visual architecture, Bento UI, multi-color systems, UX psychology (friction/dopamine/premium), 4-Act Brand Loops, motion physics, and platform guidelines. Supports React Native, SwiftUI, Flutter, Compose."
 license: MIT
 compatibility: Works with any coding agent. Supports React Native (Expo/NativeWind), SwiftUI, Flutter, Jetpack Compose, and Kotlin Multiplatform mobile projects.
 metadata:
@@ -13,27 +13,47 @@ metadata:
 
 ## Activation
 
-Use this skill when:
-- The user mentions: **设计**, **UI**, **设计建议**, **UI建议**, **审美讲义**, **交互建议**
-- The user mentions: **品牌**, **体验设计**, **品牌体验**, **裂变**, **社交货币**
-- The user mentions: design audit, UI review, UX audit, brand experience, viral loop
-- The user asks for premium / high-end / luxury design feedback
-- The user wants to **design an entire app experience from scratch** (Macro Mode)
-- A mobile UI needs polish, consistency check, or brand alignment review
-- The user wants interaction, motion, or dopamine-driven UX guidance
-- The project uses React Native, SwiftUI, Flutter, Jetpack Compose, or KMP
+This skill activates when user intent matches any of the following categories.
+Keywords are listed in English + Chinese for bilingual coverage, but **semantic matching** applies — the exact phrasing does not need to match.
+
+### Micro Mode — Component & Screen Audits
+
+| Intent | Trigger Keywords |
+|--------|-----------------|
+| General design review | `design audit` · `design review` · `UI review` · `设计审查` · `设计建议` |
+| Visual quality check | `premium design` · `luxury feel` · `high-end` · `polish` · `高级感` · `质感` |
+| Color system review | `color system` · `color tokens` · `palette` · `配色` · `颜色系统` |
+| Layout & spacing | `layout` · `spacing` · `whitespace` · `grid` · `间距` · `排版` · `留白` |
+| Typography | `typography` · `font` · `type scale` · `字体` · `字号` |
+| Component consistency | `consistency` · `design system` · `component audit` · `一致性` |
+| Multi-color review | `too many colors` · `color clash` · `multi-color` · `颜色太多` · `配色冲突` |
+| Dark mode | `dark mode` · `dark theme` · `深色模式` · `暗黑模式` |
+| Interaction & motion | `animation` · `motion` · `transition` · `micro-interaction` · `haptic` · `动效` · `交互` |
+| Accessibility | `accessibility` · `a11y` · `contrast` · `WCAG` · `无障碍` |
+| UX friction check | `friction` · `UX issue` · `usability` · `cognitive load` · `摩擦` · `易用性` |
+
+### Macro Mode — Brand Experience Architecture
+
+| Intent | Trigger Keywords |
+|--------|-----------------|
+| Full brand design | `brand experience` · `brand design` · `brand identity` · `品牌体验` · `品牌设计` |
+| Build from scratch | `design from scratch` · `full experience` · `end-to-end design` · `从零设计` · `整体体验` |
+| Reverse-engineer brand | `reverse-engineer` · `work backwards` · `倒推设计` · `倒推品牌` |
+| Viral / growth design | `viral loop` · `viral` · `growth` · `social sharing` · `裂变` · `增长` |
+| Social currency | `shareable` · `brag card` · `achievement poster` · `social currency` · `社交货币` · `分享海报` |
+| Onboarding experience | `onboarding` · `first impression` · `first 3 seconds` · `新手引导` · `首次体验` |
+| Emotional design | `dopamine` · `gamification` · `celebration` · `delight` · `多巴胺` · `游戏化` · `惊喜感` |
+| Brand tone / voice | `tone of voice` · `brand personality` · `error states` · `copy` · `品牌调性` · `文案` |
+
+---
 
 ## Dual Operating Modes
 
 ### 🔬 Micro Mode (Default)
-Audit individual screens, components, or interactions. Output: Three-Tier Proposal with exact values.
-
-**Trigger:** "Review this screen" / "Audit this component" / "这个卡片怎么改"
+Audit individual screens, components, or interactions. Output: **Three-Tier Proposal** (Safe / Balanced / Avant-Garde) with exact implementation values.
 
 ### 🏗️ Macro Mode (Brand Architect)
-Reverse-engineer an entire brand experience from a product concept. Work backwards from the viral share moment to the daily UI to the onboarding to the marketing.
-
-**Trigger:** "Design the entire experience" / "Build a brand from scratch" / "帮我从零设计品牌体验" / "倒推品牌设计"
+Reverse-engineer an entire brand experience from a product concept. Work backwards from the viral share moment → daily UI → onboarding → marketing. Output: **4-Act Brand Blueprint** with deliverables per act.
 
 ---
 
@@ -57,9 +77,9 @@ Reverse-engineer an entire brand experience from a product concept. Work backwar
 11. **Bento Grid Layout:** All content boxed in rounded containers. No data floats on raw background.
 12. **Multi-Color Decision Filter:** 5-step gate: data job? same filter? 80/20 budget? diva rule? blur rule?
 
-### Experience Psychology Layer (13-16) — NEW in v3.0
+### Experience Psychology Layer (13-16)
 
-13. **The Michelin Chef Rule:** Raw product logic is "raw meat." Three-stage preparation required: 去腥 (remove friction) → 增香 (inject dopamine) → 增彩 (premium packaging).
+13. **The Michelin Chef Rule:** Raw product logic is "raw meat." Three-stage preparation: 去腥 (remove friction) → 增香 (inject dopamine) → 增彩 (premium packaging).
 14. **Sensory Micro-Feedback:** Every finger touch must produce visual + haptic feedback within 200ms. Flat taps = dead product.
 15. **Social Currency Manufacturing:** Design shareable "brag cards" at emotional peaks. If a user wouldn't frame it on their wall, redesign it.
 16. **The 4-Act Brand Loop:** External Poison → Red Carpet → Daily Living → Viral Payback. The viral share feeds back into the marketing. Infinite loop.
@@ -80,9 +100,9 @@ Read only what is needed for the current scope:
 - HIG, Material 3, cross-platform: [references/platform-guidelines.md](references/platform-guidelines.md)
 - Photography, icons, loading: [references/asset-strategy.md](references/asset-strategy.md)
 
-### Experience Architecture — NEW
-- **UX Psychology (去腥/增香/增彩):** [references/ux-psychology-playbook.md](references/ux-psychology-playbook.md)
-- **4-Act Brand Experience Loop:** [references/brand-experience-loop.md](references/brand-experience-loop.md)
+### Experience Architecture
+- UX Psychology (去腥/增香/增彩): [references/ux-psychology-playbook.md](references/ux-psychology-playbook.md)
+- 4-Act Brand Experience Loop: [references/brand-experience-loop.md](references/brand-experience-loop.md)
 
 ---
 
@@ -145,10 +165,10 @@ What ad promise starts it?     → Design the marketing identity
 
 | Act | Deliverables |
 |-----|-------------|
-| **ACT 1: 场外放毒** (External Poison) | Brand persona statement, visual identity anchors, App Store screenshot blueprint |
-| **ACT 2: 走红毯** (Red Carpet) | Splash→Home animation spec, branded permission requests, onboarding flow, empty states |
-| **ACT 3: 过日子** (Daily Living) | Tone of voice guide, error/empty state library, haptic language map, daily color budget |
-| **ACT 4: 炫耀反哺** (Viral Payback) | Brag card templates, celebration sequence specs, sharing infrastructure, viral metrics |
+| **ACT 1: External Poison** (场外放毒) | Brand persona statement, visual identity anchors, App Store screenshot blueprint |
+| **ACT 2: Red Carpet** (走红毯) | Splash→Home animation spec, branded permission requests, onboarding flow, empty states |
+| **ACT 3: Daily Living** (过日子) | Tone of voice guide, error/empty state library, haptic language map, daily color budget |
+| **ACT 4: Viral Payback** (炫耀反哺) | Brag card templates, celebration sequence specs, sharing infrastructure, viral metrics |
 
 ### Step 4: The 4-Question Audit
 1. **What "ideal self" are we selling?**

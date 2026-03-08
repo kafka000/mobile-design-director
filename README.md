@@ -1,6 +1,5 @@
 <p align="center">
   <img src="https://img.shields.io/badge/Agent_Skills-compatible-6366f1?style=for-the-badge&labelColor=1e1e2e" alt="Agent Skills compatible" />
-  <img src="https://img.shields.io/badge/v3.0-Brand_Experience_Architect-BAFD50?style=for-the-badge&labelColor=1e1e2e" alt="v3.0" />
   <img src="https://img.shields.io/badge/Stacks-React_Native_%7C_SwiftUI_%7C_Flutter_%7C_Compose-22c55e?style=for-the-badge&labelColor=1e1e2e" alt="Mobile Stacks" />
   <img src="https://img.shields.io/github/license/kafka000/mobile-design-director?style=for-the-badge&labelColor=1e1e2e&color=f59e0b" alt="License" />
 </p>
@@ -9,18 +8,16 @@
 
 <p align="center">
   <strong>Senior UX/UI Design Director + Brand Experience Architect</strong><br/>
-  From auditing a single button to reverse-engineering an entire brand — across every mobile stack.<br/><br/>
+  From auditing a single button to reverse-engineering an entire brand — across every mobile stack.
+</p>
+
+<p align="center">
   <a href="https://agentskills.io">Agent Skills</a> ·
   <a href="#-quick-start">Install</a> ·
   <a href="#-dual-operating-modes">Modes</a> ·
   <a href="#-the-16-principles">Principles</a> ·
+  <a href="#-activation-triggers">Triggers</a> ·
   <a href="./README_CN.md">中文文档</a>
-</p>
-
-<br/>
-
-<p align="center">
-  <code>Micro Mode: "Fix this card" → Macro Mode: "Design my entire brand from scratch"</code>
 </p>
 
 ---
@@ -39,27 +36,71 @@ Works with **35+ AI coding agents** including Claude Code, Cursor, Windsurf, Git
 
 ## 🎯 Dual Operating Modes
 
-### 🔬 Micro Mode — Component Surgeon
-Audit individual screens, cards, buttons, or interactions. Get a **Three-Tier Proposal** (Safe / Balanced / Avant-Garde) with exact pixel values, spring configs, and WCAG ratios.
+<table>
+<tr>
+<td width="50%">
+
+### 🔬 Micro Mode
+**Audit** individual screens, cards, buttons, or interactions.
+
+Output: **Three-Tier Proposal** (Safe / Balanced / Avant-Garde) with exact pixel values, spring configs, and WCAG ratios.
 
 ```
 "Review this screen for premium design quality."
 "这个卡片组件的间距和阴影合理吗？"
 ```
 
-### 🏗️ Macro Mode — Brand Architect
-Reverse-engineer an **entire brand experience** from a product concept. Work backwards from the viral share moment → daily UI → onboarding → marketing. Delivers a complete 4-Act Brand Blueprint.
+</td>
+<td width="50%">
+
+### 🏗️ Macro Mode
+**Architect** an entire brand experience from a product concept.
+
+Output: **4-Act Brand Blueprint** with deliverables — working backwards from viral share moment → daily UI → onboarding → marketing.
 
 ```
 "Design the entire experience for my fitness app."
-"帮我从零倒推品牌设计 — 从裂变海报开始。"
+"帮我从零倒推品牌设计。"
 ```
 
-| | Micro Mode | Macro Mode |
-|---|---|---|
-| **Scope** | Single screen / component | Full brand experience loop |
-| **Output** | Three-Tier Proposal + exact values | 4-Act Blueprint + deliverables |
-| **References** | Visual + aesthetic + bento | ALL references |
+</td>
+</tr>
+</table>
+
+---
+
+## 🧩 Activation Triggers
+
+The skill uses **semantic intent matching** — exact phrasing is not required. The tables below show representative keywords in English and Chinese.
+
+### Micro Mode — Component & Screen Audits
+
+| Intent | Keywords |
+|--------|----------|
+| **Design review** | `design audit` · `UI review` · `design review` · `设计审查` · `设计建议` |
+| **Visual quality** | `premium` · `luxury feel` · `polish` · `high-end` · `高级感` · `质感` |
+| **Color system** | `color system` · `color tokens` · `palette` · `配色` · `颜色系统` |
+| **Multi-color** | `too many colors` · `color clash` · `multi-color` · `颜色太多` |
+| **Layout & spacing** | `layout` · `spacing` · `whitespace` · `grid` · `间距` · `排版` |
+| **Typography** | `typography` · `font` · `type scale` · `字体` · `字号` |
+| **Consistency** | `consistency` · `design system` · `component audit` · `一致性` |
+| **Dark mode** | `dark mode` · `dark theme` · `深色模式` |
+| **Motion & interaction** | `animation` · `motion` · `transition` · `haptic` · `动效` · `交互` |
+| **Accessibility** | `accessibility` · `a11y` · `contrast` · `WCAG` · `无障碍` |
+| **UX friction** | `friction` · `usability` · `cognitive load` · `摩擦` · `易用性` |
+
+### Macro Mode — Brand Experience Architecture
+
+| Intent | Keywords |
+|--------|----------|
+| **Brand design** | `brand experience` · `brand design` · `brand identity` · `品牌体验` · `品牌设计` |
+| **From scratch** | `design from scratch` · `full experience` · `end-to-end` · `从零设计` · `整体体验` |
+| **Reverse-engineer** | `reverse-engineer` · `work backwards` · `倒推设计` · `倒推品牌` |
+| **Viral / growth** | `viral loop` · `viral` · `growth design` · `裂变` · `增长` |
+| **Social currency** | `shareable` · `brag card` · `achievement poster` · `社交货币` · `分享海报` |
+| **Onboarding** | `onboarding` · `first impression` · `first 3 seconds` · `新手引导` |
+| **Gamification** | `dopamine` · `gamification` · `celebration` · `delight` · `多巴胺` · `游戏化` |
+| **Brand tone** | `tone of voice` · `brand personality` · `error states` · `品牌调性` · `文案` |
 
 ---
 
@@ -68,7 +109,7 @@ Reverse-engineer an **entire brand experience** from a product concept. Work bac
 <table>
 <tr><td width="33%">
 
-### Foundation (1-6)
+### Foundation (1–6)
 
 | # | Principle |
 |---|-----------|
@@ -81,7 +122,7 @@ Reverse-engineer an **entire brand experience** from a product concept. Work bac
 
 </td><td width="33%">
 
-### Visual Intelligence (7-12)
+### Visual Intelligence (7–12)
 
 | # | Principle |
 |---|-----------|
@@ -94,7 +135,7 @@ Reverse-engineer an **entire brand experience** from a product concept. Work bac
 
 </td><td width="34%">
 
-### Experience Psychology (13-16) <sup>🆕</sup>
+### Experience Psychology (13–16)
 
 | # | Principle |
 |---|-----------|
@@ -106,75 +147,71 @@ Reverse-engineer an **entire brand experience** from a product concept. Work bac
 </td></tr>
 </table>
 
----
+<details>
+<summary><b>Expand principle details</b></summary>
 
-## 🍳 The Michelin Chef Framework <sup>NEW in v3.0</sup>
+| # | Name | Description |
+|---|------|-------------|
+| 1 | 80/20 Platform Rule | 80% Apple HIG + Material 3 foundation, 20% brand soul |
+| 2 | Selectable Optimality | Always 3 options: Safe → Balanced → Avant-Garde |
+| 3 | Design is Physics | Motion follows spring dynamics. Nothing moves linearly |
+| 4 | Holistic Consistency | Every pixel respects the brand's Visual DNA |
+| 5 | Stack-Agnostic | Design decisions first, framework adaptation second |
+| 6 | 1px Craftsmanship | Hairline borders, layered shadows, restrained glass |
+| 7 | 80/20 Color Rule | 80% neutrals, 20% data-mapped intent. No decorative color |
+| 8 | Space = Luxury | Generous whitespace = premium. Crowding = cheap |
+| 9 | Typographic Tension | Extreme contrast: hero anchor + whisper label |
+| 10 | Dual-Track Assets | Functional icons ≠ expressive illustrations. Never mix |
+| 11 | Bento Grid Layout | All content in rounded boxes. Nothing floats loose |
+| 12 | Multi-Color Filter | 5-gate: data job → same filter → budget → diva → blur |
+| 13 | Michelin Chef Rule | Raw logic → 去腥 (de-friction) → 增香 (dopamine) → 增彩 (premium) |
+| 14 | Sensory Micro-Feedback | Every touch → visual + haptic response within 200ms |
+| 15 | Social Currency | Shareable brag cards at emotional peaks |
+| 16 | 4-Act Brand Loop | Poison → Red Carpet → Daily Living → Viral Payback → ♻️ |
 
-> *"Product logic without UX/UI is raw meat — nutritious but inedible."*
-
-A product goes through three stages of "cooking" before it's ready to serve:
-
-```
-           RAW MEAT (Product Logic)
-                    │
-     ┌──────────────┼──────────────┐
-     ↓              ↓              ↓
-  🔪 去腥          🥩 增香         ✨ 增彩
-  Remove           Inject          Premium
-  Friction         Dopamine        Packaging
-     │              │              │
-  Progressive    Micro-feedback   Halo Effect
-  Disclosure     + Gamification   + Brag Cards
-  + Undo Nets                    + Viral Loop
-     │              │              │
-     └──────────────┼──────────────┘
-                    ↓
-          🍽️ MICHELIN-STAR PRODUCT
-```
-
-### Stage 1: 去腥 (Remove Friction)
-- **Slice-and-Feed:** Complex forms → 3-step wizards, 1 question per card
-- **Undo Safety Net:** Let actions happen → "Done. ↩️ Undo" toast (no scary modals)
-- **Smart Defaults:** Pre-fill the optimal choice, let users change if needed
-
-### Stage 2: 增香 (Inject Dopamine)
-- **Sensory Micro-Feedback:** Every tap = scale bounce + color burst + haptic tap (< 200ms)
-- **Gamified Metrics:** Streak flames 🔥, liquid tubes, XP bars, ring gauges
-- **Celebration Moments:** Full-screen ceremony with 3D badges + gold particle rain
-
-### Stage 3: 增彩 (Premium Packaging)
-- **Halo Effect:** Luxury aesthetics hack the brain's trust circuit → "Looks premium = IS trustworthy"
-- **Social Currency:** Generate magazine-quality achievement posters with user's name + stats
-- **Viral Loop:** User shares poster → friends see it → download → become users → share THEIR posters
+</details>
 
 ---
 
-## 🎬 The 4-Act Brand Experience Loop <sup>NEW in v3.0</sup>
+## 🍳 The Michelin Chef Framework
 
-When operating in **Macro Mode**, design the entire user journey as a 4-act play:
+> *Product logic without UX/UI is raw meat — nutritious but inedible.*
 
 ```
-┌─ ACT 1: 场外放毒 ─────────────────────────────────┐
-│ "What 'ideal self' are we selling?"                 │
-│ App Store 3D mockups, aspirational videos, persona  │
-└────────────────────────┬────────────────────────────┘
-                         ↓
-┌─ ACT 2: 走红毯 ───────────────────────────────────┐
-│ "Do the first 3 seconds match the ad's promise?"   │
-│ Motion bridge, branded permissions, onboarding     │
-└────────────────────────┬───────────────────────────┘
-                         ↓
-┌─ ACT 3: 过日子 ───────────────────────────────────┐
-│ "Does daily use — even errors — reinforce the vibe?"│
-│ Tone of voice, branded error states, haptic map    │
-└────────────────────────┬───────────────────────────┘
-                         ↓
-┌─ ACT 4: 炫耀反哺 ─────────────────────────────────┐
-│ "Is the share moment too beautiful NOT to post?"    │
-│ Brag cards, celebration ceremonies, viral metrics   │
-└────────────────────────┬───────────────────────────┘
-                         │
-                         └──→ Loops back to ACT 1 ♻️
+    🔪 去腥                🥩 增香               ✨ 增彩
+    Remove Friction        Inject Dopamine       Premium Packaging
+    ─────────────          ───────────────       ─────────────────
+    • Progressive          • Scale bounce +      • Halo effect
+      disclosure             haptic on tap         (beauty = trust)
+    • Undo safety nets     • Gamified metrics    • Shareable
+    • Smart defaults         (🔥 streaks, XP)      brag cards
+    • Calm error states    • Celebration          • Viral loop
+                             ceremonies             closes here
+```
+
+---
+
+## 🎬 The 4-Act Brand Experience Loop
+
+For **Macro Mode** — design the entire user journey as a self-reinforcing loop:
+
+```
+   ┌─ ACT 1: External Poison ──────── "What ideal self are we selling?" ──┐
+   │  App Store mockups · Aspirational videos · Brand persona              │
+   └───────────────────────────┬───────────────────────────────────────────┘
+                               ↓
+   ┌─ ACT 2: Red Carpet ──────── "Do the first 3s match the promise?" ───┐
+   │  Motion bridge · Branded permissions · Onboarding flow               │
+   └───────────────────────────┬──────────────────────────────────────────┘
+                               ↓
+   ┌─ ACT 3: Daily Living ────── "Does daily use reinforce the vibe?" ───┐
+   │  Tone of voice · Branded errors · Haptic language map                │
+   └───────────────────────────┬──────────────────────────────────────────┘
+                               ↓
+   ┌─ ACT 4: Viral Payback ───── "Would they frame this on their wall?" ─┐
+   │  Brag cards · Celebration ceremonies · Social sharing                │
+   └───────────────────────────┬──────────────────────────────────────────┘
+                               └──── ♻️ Users share → new users discover ACT 1
 ```
 
 ### Macro Mode Deliverables
@@ -182,7 +219,7 @@ When operating in **Macro Mode**, design the entire user journey as a 4-act play
 | Act | What You Get |
 |-----|-------------|
 | **ACT 1** | Brand persona statement, visual identity anchors, App Store screenshot blueprint |
-| **ACT 2** | Splash→Home animation spec, branded permission dialogs, onboarding flow |
+| **ACT 2** | Splash → Home animation spec, branded permission dialogs, onboarding flow |
 | **ACT 3** | Tone of voice guide, error/empty state library, haptic language map |
 | **ACT 4** | Brag card templates, celebration sequence specs, sharing infrastructure |
 
@@ -202,39 +239,45 @@ When operating in **Macro Mode**, design the entire user journey as a 4-act play
 
 ## 📚 Reference Architecture
 
-Eight reference guides, loaded on-demand:
+Eight reference guides, loaded on-demand based on audit scope:
 
 ```
 mobile-design-director/
-├── SKILL.md                                # Entry point — dual modes, 16 principles, workflows
+├── SKILL.md                              # Entry — dual modes, 16 principles, workflows
 └── references/
-    ├── visual-architecture.md              # Color tokens, 80/20 allocation, Z-axis surfaces
-    ├── aesthetic-formulas.md               # Spacing, type scale, glassmorphism, shadows
-    ├── bento-color-playbook.md             # Bento layout + multi-color decision framework
-    ├── ux-psychology-playbook.md    ← 🆕    # 去腥/增香/增彩 Michelin Chef framework
-    ├── brand-experience-loop.md    ← 🆕    # 4-Act brand loop + Macro Mode blueprint
-    ├── motion-physics.md                   # Spring presets, haptics, choreography
-    ├── asset-strategy.md                   # Photography, dual-track icons, loading
-    └── platform-guidelines.md              # HIG, Material 3, WCAG, cross-platform
+    │
+    │  ── Visual & Layout ──
+    ├── visual-architecture.md            # Color tokens, 80/20 allocation, Z-axis surfaces
+    ├── aesthetic-formulas.md             # Spacing, type scale, glassmorphism, shadows
+    ├── bento-color-playbook.md           # Bento layout + multi-color decision framework
+    │
+    │  ── Motion & Platform ──
+    ├── motion-physics.md                 # Spring presets, haptics, choreography
+    ├── asset-strategy.md                 # Photography, dual-track icons, loading
+    ├── platform-guidelines.md            # HIG, Material 3, WCAG, cross-platform
+    │
+    │  ── Experience Architecture ──
+    ├── ux-psychology-playbook.md          # Michelin Chef: 去腥 / 增香 / 增彩
+    └── brand-experience-loop.md          # 4-Act loop + Macro Mode blueprint
 ```
 
 <details>
 <summary><b>📖 Reference Details</b></summary>
 
 ### `visual-architecture.md`
-Three-layer color token pipeline (Primitive → Semantic → Component), **80/20** color allocation, dark mode elevation (`#12121A` → `#1C1C22` → `#2A2A32`), typography tension (Anchor + Whisper), spacing philosophy, surface craftsmanship.
+Three-layer color token pipeline (Primitive → Semantic → Component), 80/20 allocation, dark mode elevation (`#12121A` → `#1C1C22` → `#2A2A32`), typography tension (Anchor + Whisper), spacing philosophy, surface craftsmanship.
 
 ### `aesthetic-formulas.md`
-Visual Silence theorem, Perfect Fourth type scale, Glassmorphism 2.0 with multi-stack code, layered shadows, Tension Palette (`#BAFD50`, `#A66CFF`, `#F65555`, `#FFD556`, `#87DCFB`).
+Visual Silence theorem, Perfect Fourth type scale, Glassmorphism 2.0 with multi-stack code, layered shadows, Tension Palette color system.
 
 ### `bento-color-playbook.md`
-5 Bento layout rules (box everything, round everything, extreme contrast, lavish whitespace, toyify data) + 5 multi-color decisions (color-as-label, unified filter, 80/20 budget, diva rule, blur rule).
+5 Bento layout rules (box everything, round everything, extreme contrast, lavish whitespace, toyify data) + 5 multi-color decisions (color-as-label, unified filter, 80/20 budget, diva rule, blur rule). Light mode "Ice Cream" and dark mode "Cyberpunk Neon" formulas.
 
-### `ux-psychology-playbook.md` <sup>🆕</sup>
-The Michelin Chef 3-stage framework: **去腥** (progressive disclosure, undo nets, smart defaults), **增香** (micro-feedback specs, gamified metrics, celebration ceremonies), **增彩** (halo effect, social currency brag cards with design specs).
+### `ux-psychology-playbook.md`
+The Michelin Chef 3-stage framework: **去腥** (progressive disclosure, undo nets, smart defaults), **增香** (micro-feedback specs with timing, gamified metrics, celebration ceremonies), **增彩** (halo effect, social currency brag cards with design specs).
 
-### `brand-experience-loop.md` <sup>🆕</sup>
-4-Act holistic experience design: **场外放毒** (identity-driven marketing), **走红毯** (first 3 seconds motion bridge), **过日子** (invisible brand personality, branded error states), **炫耀反哺** (social currency viral loop). Includes backwards-engineering method and Macro vs Micro mode definition.
+### `brand-experience-loop.md`
+4-Act holistic experience design: **External Poison** (identity-driven marketing), **Red Carpet** (first 3 seconds motion bridge), **Daily Living** (invisible brand personality, branded error states), **Viral Payback** (social currency viral loop). Includes backwards-engineering method, Macro vs Micro mode definition, and the 4-Question Brand Audit.
 
 ### `motion-physics.md`
 Spring presets (Snappy/Gentle/Bouncy/Heavy/Micro), haptic feedback mapping, staggered choreography, Scale-on-Press — with code for Reanimated, SwiftUI, Flutter, Compose.
@@ -256,45 +299,28 @@ Dual-track imagery, photography staging, icon separation, shape language, asset 
 Review this screen for premium design quality.
 ```
 ```
-Audit the motion and transitions on the home tab.
+This page has too many colors — audit it.
 ```
 ```
-UI建议：这个卡片组件的间距和阴影合理吗？
+这个点赞按钮的动效太死板，帮我加增香。
+```
+```
+How should I implement scale-on-press for this button in SwiftUI?
 ```
 
 ### Macro Mode
 ```
-Design the entire brand experience for my meditation app, starting from the viral share moment.
+Design the entire brand experience for my meditation app.
 ```
 ```
-帮我从零倒推品牌设计 — 用户会炫耀什么？从那里开始设计。
+帮我从零倒推品牌设计 — 用户会炫耀什么？从那里开始。
 ```
 ```
 Build a 4-Act experience blueprint for a fintech app targeting Gen Z.
 ```
-
----
-
-## 🔄 Changelog
-
-### v3.0 — Brand Experience Architect
-- 🆕 **Macro Mode:** Reverse-engineer entire brand experiences from product concepts
-- 🆕 `ux-psychology-playbook.md` — The Michelin Chef framework (去腥/增香/增彩)
-- 🆕 `brand-experience-loop.md` — 4-Act Brand Experience Loop with viral flywheel
-- 🆕 Principles #13-16: Michelin Chef, Sensory Feedback, Social Currency, 4-Act Loop
-- 🆕 Macro Mode workflow: backwards-engineering from viral moment to daily UI to onboarding to marketing
-- 🆕 4-Question Brand Audit for launch readiness
-
-### v2.1 — Bento UI + Multi-Color Playbook
-- ✅ `bento-color-playbook.md` — 5 layout rules + 5 color decisions
-- ✅ 90/10 → 80/20 color allocation
-- ✅ Dark mode Z-values → `#12121A` / `#1C1C22` / `#2A2A32`
-- ✅ Multi-accent with data-job filter
-
-### v2.0 — Visual Architecture Rewrite
-- Three-Tier Proposal system
-- Full reference document suite
-- Multi-stack code snippets
+```
+I need shareable achievement posters — design the viral loop.
+```
 
 ---
 
