@@ -1,6 +1,6 @@
 <p align="center">
   <img src="https://img.shields.io/badge/Agent_Skills-compatible-6366f1?style=for-the-badge&labelColor=1e1e2e" alt="Agent Skills compatible" />
-  <img src="https://img.shields.io/badge/v2.1-Bento_UI_%2B_Multi--Color-BAFD50?style=for-the-badge&labelColor=1e1e2e" alt="v2.1" />
+  <img src="https://img.shields.io/badge/v3.0-Brand_Experience_Architect-BAFD50?style=for-the-badge&labelColor=1e1e2e" alt="v3.0" />
   <img src="https://img.shields.io/badge/Stacks-React_Native_%7C_SwiftUI_%7C_Flutter_%7C_Compose-22c55e?style=for-the-badge&labelColor=1e1e2e" alt="Mobile Stacks" />
   <img src="https://img.shields.io/github/license/kafka000/mobile-design-director?style=for-the-badge&labelColor=1e1e2e&color=f59e0b" alt="License" />
 </p>
@@ -8,19 +8,19 @@
 <h1 align="center">📱 Mobile Design Director</h1>
 
 <p align="center">
-  <strong>A senior UX/UI Design Director skill for AI coding agents.</strong><br/>
-  Audit · Elevate · Polish — every mobile interface, across every stack.<br/><br/>
+  <strong>Senior UX/UI Design Director + Brand Experience Architect</strong><br/>
+  From auditing a single button to reverse-engineering an entire brand — across every mobile stack.<br/><br/>
   <a href="https://agentskills.io">Agent Skills</a> ·
   <a href="#-quick-start">Install</a> ·
-  <a href="#-what-it-does">Features</a> ·
-  <a href="#-supported-stacks">Stacks</a> ·
+  <a href="#-dual-operating-modes">Modes</a> ·
+  <a href="#-the-16-principles">Principles</a> ·
   <a href="./README_CN.md">中文文档</a>
 </p>
 
 <br/>
 
 <p align="center">
-  <code>Your AI agent ← reads this skill → becomes a design director</code>
+  <code>Micro Mode: "Fix this card" → Macro Mode: "Design my entire brand from scratch"</code>
 </p>
 
 ---
@@ -37,111 +37,154 @@ Works with **35+ AI coding agents** including Claude Code, Cursor, Windsurf, Git
 
 ---
 
-## 🎯 What It Does
+## 🎯 Dual Operating Modes
 
-**Mobile Design Director** gives your AI agent the eye of a seasoned design director with 10+ years of experience. It audits mobile UIs against **Apple HIG**, **Material Design 3**, and a curated **"Young Luxury"** aesthetic, then returns actionable, code-level suggestions — not vague "make it pop" feedback.
+### 🔬 Micro Mode — Component Surgeon
+Audit individual screens, cards, buttons, or interactions. Get a **Three-Tier Proposal** (Safe / Balanced / Avant-Garde) with exact pixel values, spring configs, and WCAG ratios.
 
-### The Three-Tier Proposal System
+```
+"Review this screen for premium design quality."
+"这个卡片组件的间距和阴影合理吗？"
+```
 
-Every response offers three calibrated directions:
+### 🏗️ Macro Mode — Brand Architect
+Reverse-engineer an **entire brand experience** from a product concept. Work backwards from the viral share moment → daily UI → onboarding → marketing. Delivers a complete 4-Act Brand Blueprint.
 
-| | 🛡️ Option A: Safe | ⭐ Option B: Balanced | 🚀 Option C: Avant-Garde |
-|---|---|---|---|
-| **Approach** | Platform-native components | 80% platform + 20% brand soul | Heavy motion, glassmorphism, "acid luxury" |
-| **Dev Cost** | Low | Medium | High |
-| **Wow Factor** | ★☆☆ | ★★☆ | ★★★ |
+```
+"Design the entire experience for my fitness app."
+"帮我从零倒推品牌设计 — 从裂变海报开始。"
+```
 
-Every suggestion ships with **exact values** — spring damping, tracking percentages, WCAG contrast ratios, corner radii, shadow layers, and hex codes.
+| | Micro Mode | Macro Mode |
+|---|---|---|
+| **Scope** | Single screen / component | Full brand experience loop |
+| **Output** | Three-Tier Proposal + exact values | 4-Act Blueprint + deliverables |
+| **References** | Visual + aesthetic + bento | ALL references |
 
 ---
 
-## 🧠 Core Design Principles
-
-The 12 principles that govern every audit and recommendation:
+## 🧠 The 16 Principles
 
 <table>
-<tr><td width="50%">
+<tr><td width="33%">
 
-### Foundation Layer
-
-| # | Principle |
-|---|-----------|
-| 1 | **80/20 Platform Rule** — 80% HIG + Material 3 foundation, 20% brand personality |
-| 2 | **Selectable Optimality** — Always 3 options: Safe → Balanced → Avant-Garde |
-| 3 | **Design is Physics** — Motion follows spring dynamics, never linear |
-| 4 | **Holistic Consistency** — Every pixel respects the Visual DNA |
-| 5 | **Stack-Agnostic** — Design first, framework adaptation second |
-| 6 | **1px Craftsmanship** — Quality lives in hairline borders & layered shadows |
-
-</td><td width="50%">
-
-### Visual Intelligence Layer
+### Foundation (1-6)
 
 | # | Principle |
 |---|-----------|
-| 7 | **80/20 Color Rule** — 80% neutrals, 20% data-mapped intent color |
-| 8 | **Space = Luxury** — Generous whitespace creates premium feel |
-| 9 | **Typographic Tension** — Extreme contrast: hero anchor + whisper label |
-| 10 | **Dual-Track Assets** — Functional icons ≠ expressive illustrations |
-| 11 | **Bento Grid Layout** — All content boxed in rounded containers |
-| 12 | **Multi-Color Filter** — 5-step decision gate for every new color |
+| 1 | **80/20 Platform Rule** |
+| 2 | **Selectable Optimality** |
+| 3 | **Design is Physics** |
+| 4 | **Holistic Consistency** |
+| 5 | **Stack-Agnostic** |
+| 6 | **1px Craftsmanship** |
+
+</td><td width="33%">
+
+### Visual Intelligence (7-12)
+
+| # | Principle |
+|---|-----------|
+| 7 | **80/20 Color Rule** |
+| 8 | **Space = Luxury** |
+| 9 | **Typographic Tension** |
+| 10 | **Dual-Track Assets** |
+| 11 | **Bento Grid Layout** |
+| 12 | **Multi-Color Filter** |
+
+</td><td width="34%">
+
+### Experience Psychology (13-16) <sup>🆕</sup>
+
+| # | Principle |
+|---|-----------|
+| 13 | **Michelin Chef Rule** |
+| 14 | **Sensory Micro-Feedback** |
+| 15 | **Social Currency** |
+| 16 | **4-Act Brand Loop** |
 
 </td></tr>
 </table>
 
 ---
 
-## 🎨 The Bento UI + Multi-Color Playbook <sup>NEW in v2.1</sup>
+## 🍳 The Michelin Chef Framework <sup>NEW in v3.0</sup>
 
-The latest addition: a comprehensive framework for building **"colorful yet clean"** interfaces — the #1 challenge in modern mobile design.
+> *"Product logic without UX/UI is raw meat — nutritious but inedible."*
 
-### 5 Bento Layout Rules
-
-```
-1. 📦 Everything in a Box    — No content floats on raw background
-2. 🫧 Kill All Sharp Corners — Aggressive rounding, pill buttons, candy bars
-3. 📏 Extreme Type Contrast  — 48pt hero number + 10pt gray whisper label
-4. 🫁 Lavish Whitespace      — Module gaps ≥ 3× item gaps. Space = luxury.
-5. 🧸 Toyify the Data        — Chunky bars, dot matrices, ring gauges > line charts
-```
-
-### 5 Multi-Color Decisions
+A product goes through three stages of "cooking" before it's ready to serve:
 
 ```
-1. 🏷️ Color = Data Label     — No color without a data "job"
-2. 🧴 Same Filter, All Hues  — Macaron OR Neon, never mixed
-3. 📊 80/20 Neutral Budget   — 80% screen → black/white/gray. Colors → 20% only.
-4. 🎤 One Diva Per Stage     — Vivid card bg → ALL inner content goes monochrome
-5. 🌫️ Blur the Boundaries    — Adjacent accents → diffuse/dissolve edges
+           RAW MEAT (Product Logic)
+                    │
+     ┌──────────────┼──────────────┐
+     ↓              ↓              ↓
+  🔪 去腥          🥩 增香         ✨ 增彩
+  Remove           Inject          Premium
+  Friction         Dopamine        Packaging
+     │              │              │
+  Progressive    Micro-feedback   Halo Effect
+  Disclosure     + Gamification   + Brag Cards
+  + Undo Nets                    + Viral Loop
+     │              │              │
+     └──────────────┼──────────────┘
+                    ↓
+          🍽️ MICHELIN-STAR PRODUCT
 ```
 
-### Quick Decision Flowchart
+### Stage 1: 去腥 (Remove Friction)
+- **Slice-and-Feed:** Complex forms → 3-step wizards, 1 question per card
+- **Undo Safety Net:** Let actions happen → "Done. ↩️ Undo" toast (no scary modals)
+- **Smart Defaults:** Pre-fill the optimal choice, let users change if needed
 
-```
-Want to add a color?
-  ├── Has a data category?         NO → 🚫 Don't.
-  │                                YES ↓
-  ├── Matches existing filter?     NO → Adjust saturation.
-  │                                YES ↓
-  ├── Within 20% color budget?     NO → Remove another color.
-  │                                YES ↓
-  ├── Background already vivid?    YES → Content → monochrome only.
-  │                                NO ↓
-  └── Multiple accents touching?   YES → Blur/diffuse boundaries.
-                                   NO → Ship it. ✅
-```
+### Stage 2: 增香 (Inject Dopamine)
+- **Sensory Micro-Feedback:** Every tap = scale bounce + color burst + haptic tap (< 200ms)
+- **Gamified Metrics:** Streak flames 🔥, liquid tubes, XP bars, ring gauges
+- **Celebration Moments:** Full-screen ceremony with 3D badges + gold particle rain
+
+### Stage 3: 增彩 (Premium Packaging)
+- **Halo Effect:** Luxury aesthetics hack the brain's trust circuit → "Looks premium = IS trustworthy"
+- **Social Currency:** Generate magazine-quality achievement posters with user's name + stats
+- **Viral Loop:** User shares poster → friends see it → download → become users → share THEIR posters
 
 ---
 
-## 🔌 Activation Triggers
+## 🎬 The 4-Act Brand Experience Loop <sup>NEW in v3.0</sup>
 
-The skill auto-activates on these keywords:
+When operating in **Macro Mode**, design the entire user journey as a 4-act play:
 
-| Language | Triggers |
-|----------|----------|
-| 🇨🇳 中文 | `设计` · `UI` · `设计建议` · `UI建议` · `审美讲义` · `交互建议` |
-| 🇬🇧 English | `design audit` · `UI review` · `UX audit` · `premium design` |
-| 🌐 General | Any mobile UI polish, consistency check, or brand alignment review |
+```
+┌─ ACT 1: 场外放毒 ─────────────────────────────────┐
+│ "What 'ideal self' are we selling?"                 │
+│ App Store 3D mockups, aspirational videos, persona  │
+└────────────────────────┬────────────────────────────┘
+                         ↓
+┌─ ACT 2: 走红毯 ───────────────────────────────────┐
+│ "Do the first 3 seconds match the ad's promise?"   │
+│ Motion bridge, branded permissions, onboarding     │
+└────────────────────────┬───────────────────────────┘
+                         ↓
+┌─ ACT 3: 过日子 ───────────────────────────────────┐
+│ "Does daily use — even errors — reinforce the vibe?"│
+│ Tone of voice, branded error states, haptic map    │
+└────────────────────────┬───────────────────────────┘
+                         ↓
+┌─ ACT 4: 炫耀反哺 ─────────────────────────────────┐
+│ "Is the share moment too beautiful NOT to post?"    │
+│ Brag cards, celebration ceremonies, viral metrics   │
+└────────────────────────┬───────────────────────────┘
+                         │
+                         └──→ Loops back to ACT 1 ♻️
+```
+
+### Macro Mode Deliverables
+
+| Act | What You Get |
+|-----|-------------|
+| **ACT 1** | Brand persona statement, visual identity anchors, App Store screenshot blueprint |
+| **ACT 2** | Splash→Home animation spec, branded permission dialogs, onboarding flow |
+| **ACT 3** | Tone of voice guide, error/empty state library, haptic language map |
+| **ACT 4** | Brag card templates, celebration sequence specs, sharing infrastructure |
 
 ---
 
@@ -159,40 +202,48 @@ The skill auto-activates on these keywords:
 
 ## 📚 Reference Architecture
 
-Six reference guides, loaded on-demand for relevant audits:
+Eight reference guides, loaded on-demand:
 
 ```
 mobile-design-director/
-├── SKILL.md                              # Entry point — activation, workflow, principles
+├── SKILL.md                                # Entry point — dual modes, 16 principles, workflows
 └── references/
-    ├── visual-architecture.md            # Color tokens, 80/20 allocation, Z-axis surfaces
-    ├── aesthetic-formulas.md             # Spacing, type scale, glassmorphism, shadows
-    ├── bento-color-playbook.md      ← 🆕  # Bento layout + multi-color decision framework
-    ├── motion-physics.md                 # Spring presets, haptics, choreography
-    ├── asset-strategy.md                 # Photography, dual-track icons, loading
-    └── platform-guidelines.md            # HIG, Material 3, WCAG, cross-platform
+    ├── visual-architecture.md              # Color tokens, 80/20 allocation, Z-axis surfaces
+    ├── aesthetic-formulas.md               # Spacing, type scale, glassmorphism, shadows
+    ├── bento-color-playbook.md             # Bento layout + multi-color decision framework
+    ├── ux-psychology-playbook.md    ← 🆕    # 去腥/增香/增彩 Michelin Chef framework
+    ├── brand-experience-loop.md    ← 🆕    # 4-Act brand loop + Macro Mode blueprint
+    ├── motion-physics.md                   # Spring presets, haptics, choreography
+    ├── asset-strategy.md                   # Photography, dual-track icons, loading
+    └── platform-guidelines.md              # HIG, Material 3, WCAG, cross-platform
 ```
 
 <details>
 <summary><b>📖 Reference Details</b></summary>
 
 ### `visual-architecture.md`
-Three-layer color token pipeline (Primitive → Semantic → Component), the **80/20** color allocation rule, dark mode elevation mapping (`#12121A` → `#1C1C22` → `#2A2A32`), typography tension (Anchor + Whisper), outer-loose inner-tight spacing, sub-pixel surface craftsmanship, and design-to-engineering alignment.
+Three-layer color token pipeline (Primitive → Semantic → Component), **80/20** color allocation, dark mode elevation (`#12121A` → `#1C1C22` → `#2A2A32`), typography tension (Anchor + Whisper), spacing philosophy, surface craftsmanship.
 
 ### `aesthetic-formulas.md`
-Visual Silence theorem, Perfect Fourth type scale, Glassmorphism 2.0 with multi-stack code, layered shadows, and the **Tension Palette** color system (`#BAFD50` neon, `#A66CFF` aurora, `#F65555` fire, `#FFD556` energy, `#87DCFB` recovery) — with implementation snippets for all four stacks.
+Visual Silence theorem, Perfect Fourth type scale, Glassmorphism 2.0 with multi-stack code, layered shadows, Tension Palette (`#BAFD50`, `#A66CFF`, `#F65555`, `#FFD556`, `#87DCFB`).
 
-### `bento-color-playbook.md` <sup>🆕</sup>
-The Bento UI layout philosophy (box everything, round everything, extreme typographic contrast, lavish whitespace, toyify data) and the 5-decision multi-color framework (color-as-label, unified saturation filter, 80/20 budget, diva rule, boundary diffusion). Includes light mode "Ice Cream" and dark mode "Cyberpunk Neon" formulas.
+### `bento-color-playbook.md`
+5 Bento layout rules (box everything, round everything, extreme contrast, lavish whitespace, toyify data) + 5 multi-color decisions (color-as-label, unified filter, 80/20 budget, diva rule, blur rule).
+
+### `ux-psychology-playbook.md` <sup>🆕</sup>
+The Michelin Chef 3-stage framework: **去腥** (progressive disclosure, undo nets, smart defaults), **增香** (micro-feedback specs, gamified metrics, celebration ceremonies), **增彩** (halo effect, social currency brag cards with design specs).
+
+### `brand-experience-loop.md` <sup>🆕</sup>
+4-Act holistic experience design: **场外放毒** (identity-driven marketing), **走红毯** (first 3 seconds motion bridge), **过日子** (invisible brand personality, branded error states), **炫耀反哺** (social currency viral loop). Includes backwards-engineering method and Macro vs Micro mode definition.
 
 ### `motion-physics.md`
-Spring presets (Snappy / Gentle / Bouncy / Heavy / Micro), haptic feedback mapping, staggered entrance choreography, Scale-on-Press patterns — with code for Reanimated, SwiftUI `.spring()`, Flutter `SpringSimulation`, and Compose `animateFloatAsState`.
+Spring presets (Snappy/Gentle/Bouncy/Heavy/Micro), haptic feedback mapping, staggered choreography, Scale-on-Press — with code for Reanimated, SwiftUI, Flutter, Compose.
 
 ### `platform-guidelines.md`
-Apple HIG touch targets & safe areas, Material 3 comparison matrix, React Native / NativeWind quick reference, KMP/CMP notes, and WCAG accessibility non-negotiables — with multi-stack code.
+Apple HIG, Material 3, WCAG accessibility, cross-platform guidelines with multi-stack code.
 
 ### `asset-strategy.md`
-Dual-track imagery: photography staging (transparent cutouts, system backdrops), functional vs. expressive icon separation, shape language, and asset loading engineering (aspect-ratio placeholders, fade-in transitions, ceremonial reveals with haptics).
+Dual-track imagery, photography staging, icon separation, shape language, asset loading engineering.
 
 </details>
 
@@ -200,6 +251,7 @@ Dual-track imagery: photography staging (transparent cutouts, system backdrops),
 
 ## 💬 Example Usage
 
+### Micro Mode
 ```
 Review this screen for premium design quality.
 ```
@@ -209,29 +261,40 @@ Audit the motion and transitions on the home tab.
 ```
 UI建议：这个卡片组件的间距和阴影合理吗？
 ```
+
+### Macro Mode
 ```
-How should I implement scale-on-press for this button in SwiftUI?
+Design the entire brand experience for my meditation app, starting from the viral share moment.
 ```
 ```
-这个页面颜色太多了，帮我做一次多色彩抉择审查。
+帮我从零倒推品牌设计 — 用户会炫耀什么？从那里开始设计。
+```
+```
+Build a 4-Act experience blueprint for a fintech app targeting Gen Z.
 ```
 
 ---
 
 ## 🔄 Changelog
 
+### v3.0 — Brand Experience Architect
+- 🆕 **Macro Mode:** Reverse-engineer entire brand experiences from product concepts
+- 🆕 `ux-psychology-playbook.md` — The Michelin Chef framework (去腥/增香/增彩)
+- 🆕 `brand-experience-loop.md` — 4-Act Brand Experience Loop with viral flywheel
+- 🆕 Principles #13-16: Michelin Chef, Sensory Feedback, Social Currency, 4-Act Loop
+- 🆕 Macro Mode workflow: backwards-engineering from viral moment to daily UI to onboarding to marketing
+- 🆕 4-Question Brand Audit for launch readiness
+
 ### v2.1 — Bento UI + Multi-Color Playbook
-- ✅ **New:** `bento-color-playbook.md` — 5 Bento layout rules + 5 multi-color decisions
-- ✅ **Updated:** 90/10 color rule → **80/20** (richer data visualization)
-- ✅ **Updated:** Dark mode Z-values → `#12121A` / `#1C1C22` / `#2A2A32`
-- ✅ **Updated:** "Max 1 accent per screen" → Multi-accent OK with data-job filter
-- ✅ **Updated:** Dark mode accent strategy → "Cyberpunk Neon" high-saturation filter
-- ✅ **Added:** Principles #11 (Bento Grid) and #12 (Multi-Color Filter)
+- ✅ `bento-color-playbook.md` — 5 layout rules + 5 color decisions
+- ✅ 90/10 → 80/20 color allocation
+- ✅ Dark mode Z-values → `#12121A` / `#1C1C22` / `#2A2A32`
+- ✅ Multi-accent with data-job filter
 
 ### v2.0 — Visual Architecture Rewrite
 - Three-Tier Proposal system
 - Full reference document suite
-- Multi-stack code snippets (RN, SwiftUI, Flutter, Compose)
+- Multi-stack code snippets
 
 ---
 
