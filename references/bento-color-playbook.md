@@ -137,7 +137,32 @@ Replace line charts with chunky colored bars, dot matrices, wave curves, or ring
 └────────────────────────────────┘
 ```
 
-**Formula:** `Vivid background + Monochrome content =永远的神 (always godly)`
+**Formula:** `Vivid background + Monochrome content = 永远的神 (always godly)`
+
+**Extended Diva Rule — Multi-Card Viewport:**
+When multiple cards share a viewport, each card surface counts as a "stage." Giving each card a different colored tint = multiple Divas competing for attention in one viewport.
+
+```
+❌ Anti-pattern: "Temperature gradient" with different colored surfaces
+┌── Amber card ──┐  ┌── Purple card ──┐
+│    Calories     │  │    Nutrition     │
+└────────────────┘  └────────────────┘
+┌── Blue card ───┐  ┌── Green card ──┐
+│    Weight       │  │    Exercise     │
+└────────────────┘  └────────────────┘
+→ 4 Divas = visual chaos, not richness
+
+✅ Correct: Unified neutral surface + data elements carry color
+┌── Dark glass ──┐  ┌── Dark glass ──┐
+│  1,840 [▓▓▓░░] │  │  🟣25g 🟡60g   │  ← progress bar & rings carry color
+└────────────────┘  └────────────────┘
+┌── Dark glass ──┐  ┌── Dark glass ──┐
+│  73 kg    •    │  │  💚 320 kcal   │  ← icons & accent dots carry color
+└────────────────┘  └────────────────┘
+→ 1 surface style + 4 data colors = rich AND clean
+```
+
+**The principle:** Surfaces are the gallery wall (neutral). Data elements are the paintings (colorful). Don't paint the walls.
 
 ### Decision 5: "Blur the Boundaries" (Diffused Gradients for Multi-Color Zones)
 

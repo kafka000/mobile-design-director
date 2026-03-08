@@ -128,7 +128,56 @@ Read only what is needed for the current scope:
 - **Consistency Check:** Does this clash with the existing Design System?
 - **Code Reality:** Technical complexity for the user's specific stack.
 
+### Step 1.5: Cross-Decision Validation Gate ⛔
+
+> **MANDATORY.** Before producing ANY proposal that adds, removes, or changes colors, surfaces, or backgrounds, you MUST run ALL 5 Color Decisions as a single atomic pass. No Decision may be evaluated in isolation.
+
+When the user triggers ANY color-related intent (color richness, color system, premium feel, background review, palette, multi-color review, etc.), execute this validation matrix:
+
+```
+┌─────────────────────────────────────────────────────────────┐
+│             CROSS-DECISION VALIDATION MATRIX                │
+│                                                             │
+│  For EVERY proposed color change, answer ALL 5 gates:       │
+│                                                             │
+│  D1: Does this color have a data job?                       │
+│      → If NO: reject the color.                             │
+│                                                             │
+│  D2: Does it share the same saturation filter as siblings?  │
+│      → If NO: adjust saturation to match.                   │
+│                                                             │
+│  D3: After adding, is the color budget still ≤ 20%?         │
+│      → If NO: identify what to remove first.                │
+│                                                             │
+│  D4: Does this create >1 Diva on the same stage?            │
+│      → If YES: demote one to neutral.                       │
+│      → KEY: Background counts as a Diva if opacity > 15%.   │
+│      → KEY: Card surface tint counts as a Diva.             │
+│      → KEY: Count total Divas per viewport, not per card.   │
+│                                                             │
+│  D5: Do adjacent accents blur into each other?              │
+│      → If NO: add blur boundary or increase spacing.        │
+│                                                             │
+│  ⚠️ CONFLICT DETECTOR:                                      │
+│  If D1 says "add color" but D4 says "too many Divas":       │
+│    → Move color from SURFACE to DATA ELEMENT.               │
+│    → Surfaces stay neutral; data elements carry color.      │
+│    → Example: Don't tint the card amber; tint the           │
+│      progress bar amber.                                    │
+│                                                             │
+│  If D1 says "needs richness" but D3 says "over budget":     │
+│    → Replace wide-area color with small-area high-contrast. │
+│    → Example: Don't colorize backgrounds; add colored       │
+│      accent dots, ring charts, or icon glows.               │
+└─────────────────────────────────────────────────────────────┘
+```
+
+**Failure mode this gate prevents:**
+> "Color richness" audit suggests adding 4 different colored card surfaces → creates multi-color conflict. The gate catches this at D4 ("too many Divas") BEFORE generating the proposal, not after the user discovers the clash on their device.
+
 ### Step 2: The Three-Tier Proposal
+
+Every proposal option MUST include a **5-Decision Compliance Summary** showing pass/fail for each decision:
 
 | | Option A: Safe/HIG | Option B: Balanced ⭐ | Option C: Avant-Garde |
 |---|---|---|---|
@@ -137,10 +186,14 @@ Read only what is needed for the current scope:
 | **Dev Cost** | Lowest | Reasonable | High |
 | **Usability** | Highest | High | Medium (custom gestures) |
 | **Wow Factor** | Low | Medium-High | Maximum |
+| **D1-D5 Compliance** | ✅✅✅✅✅ | ✅✅✅✅✅ | ✅✅✅⚠️✅ |
+
+> **No option may be presented with a D4 ❌ (Diva conflict).** If an option would fail D4, redesign it until it passes. A ⚠️ (borderline) is acceptable only if explicitly noted with mitigation.
 
 ### Step 3: The Director's Verdict
 - Professional recommendation with design psychology reasoning.
 - Exact values: corner radii, shadow layers, spacing tokens, font weights, tracking %, spring configs.
+- **5-Decision audit trail** showing how the recommended option passes all gates.
 - Business impact estimate when applicable.
 
 ---
