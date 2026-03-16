@@ -356,3 +356,85 @@ Elements should transform into the next state, not simply slide.
 - High saturation accents (Electric Blue, Acid Green) against deep black/white
 - **Glow effects:** Subtle radial gradient behind accent elements
 - **Variable blur:** Background blur increases on scroll (8→20pt)
+
+---
+
+## 6. First-Principles Motion Physics
+
+> This section provides the theoretical foundation for *why* the above presets work — rooted in real-world physics and cognitive psychology.
+
+### 6.1 The Ban on Linear Motion
+
+**Theorem:** `Nothing in nature starts or stops instantly at constant speed.`
+
+In the physical world, every object has mass and therefore inertia. Motion always involves acceleration and deceleration. Linear (constant-speed) animation feels synthetic and unsettling because it violates the brain's lifelong experience of how objects behave.
+
+| Easing Type | Physics Analogy | When to Use |
+|-------------|----------------|-------------|
+| **Spring (preferred)** | Object attached to a spring — overshoots, settles | Almost everything: buttons, cards, modals, toggles |
+| **Ease-out (decelerate)** | Ball thrown upward — fast start, slow stop | Elements entering the viewport |
+| **Ease-in (accelerate)** | Ball dropped — slow start, fast end | Elements exiting the viewport |
+| **Linear** | — (unnatural) | ❌ Never for UI motion. Only for continuous progress bars |
+
+**Bézier Curve vs Spring Model:**
+
+```
+Bézier:  Predefined path, fixed duration.
+         cubic-bezier(0.25, 0.1, 0.25, 1.0)  ← "Apple ease"
+         ✅ Predictable timing, ❌ No overshoot, ❌ No mass feel
+
+Spring:  Physics-based, duration is emergent from parameters.
+         mass: 0.8, stiffness: 400, damping: 15  ← "snappy"
+         ✅ Natural overshoot, ✅ Mass/inertia feel, ✅ Responds to interruption
+```
+
+**Rule:** Prefer spring for interactive UI (interruptions are common). Use Bézier only for sequenced animations where exact timing is needed (celebration choreography).
+
+### 6.2 Staggered Choreography Theory (多米诺骨牌 / 水波纹)
+
+**Theorem:** `Simultaneous appearance = shocking. Sequential appearance = elegant.`
+
+When multiple elements appear at once, the brain receives a "flash" of information — overwhelming and unstructured. Adding 50–100ms delays between elements creates a **domino cascade** or **ripple effect** that the brain can naturally follow.
+
+| Stagger Pattern | Direction | Effect | Use Case |
+|----------------|-----------|--------|----------|
+| **Waterfall** | Top → Bottom | Gravity-like natural flow | Vertical lists, card stacks |
+| **Ripple** | Center → Edges | Expanding energy | Grid layouts, dashboard tiles |
+| **Wave** | Left → Right | Reading-direction flow | Horizontal carousels, tab bars |
+| **Cascade** | Back → Front | Depth revelation | Z-layered compositions |
+
+**Optimal Parameters:**
+- **Per-element delay:** 40–80ms (faster = energetic, slower = dramatic)
+- **Max elements before batching:** 5 (beyond 5, group remaining into one batch)
+- **Total sequence duration:** ≤ 500ms (longer feels sluggish)
+
+### 6.3 Micro-Interaction Certainty (毫秒级确定性)
+
+**Theorem:** `Touch → Response < 100ms = "I am in control." > 200ms = "Is it broken?"`
+
+The human perception threshold for "instant" feedback is approximately 100ms. Every finger interaction (tap, press, swipe) must produce a visual + haptic response within this window to maintain the user's sense of **agency and control**.
+
+| Response Time | User Perception | Design Action |
+|--------------|-----------------|---------------|
+| **< 50ms** | Instantaneous | Haptic fire + scale-down animation begins |
+| **50–100ms** | Responsive | Visual state change visible (color, shadow) |
+| **100–200ms** | Acknowledged | Animation completes, new state settles |
+| **200–500ms** | Waiting | Show progress indicator if content loading |
+| **> 500ms** | Broken | Immediate skeleton/spinner required |
+
+**The "Press-Down" Contract:**
+
+```
+User finger touches screen (t=0):
+  t=0ms:    Haptic fires (Light impact)
+  t=0ms:    Scale animation begins (1.0 → 0.96)
+  t=50ms:   Background color shifts to pressed state
+  t=150ms:  Scale settles at 0.96 (spring physics)
+
+User finger lifts (t=variable):
+  t=0ms:    Scale springs back (0.96 → 1.0, with slight overshoot)
+  t=0ms:    Background color returns to default
+  t=0ms:    Action fires (navigation, API call, etc.)
+```
+
+This contract ensures the user **always** feels physically connected to the interface — digital buttons feel like physical buttons.

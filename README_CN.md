@@ -7,15 +7,15 @@
 <h1 align="center">📱 Mobile Design Director</h1>
 
 <p align="center">
-  <strong>高级 UX/UI 设计总监 + 品牌体验架构师</strong><br/>
-  从审查一个按钮，到从零倒推整个品牌体验 — 覆盖所有移动端技术栈。
+  <strong>高级 UX/UI 设计总监 + 品牌体验架构师 + 第一性原理设计物理学家</strong><br/>
+  从审查一个按钮，到从零倒推整个品牌体验，再到用物理学公式解剖任何设计的好坏根源 — 覆盖所有移动端技术栈。
 </p>
 
 <p align="center">
   <a href="https://agentskills.io">Agent Skills</a> ·
   <a href="#-快速开始">安装</a> ·
-  <a href="#-双运行模式">模式</a> ·
-  <a href="#-16-条设计原则">原则</a> ·
+  <a href="#-三大运行模式">模式</a> ·
+  <a href="#-24-条设计原则">原则</a> ·
   <a href="#-触发关键词">触发词</a> ·
   <a href="./README.md">English</a>
 </p>
@@ -34,11 +34,11 @@ npx skills add kafka000/mobile-design-director
 
 ---
 
-## 🎯 双运行模式
+## 🎯 三大运行模式
 
 <table>
 <tr>
-<td width="50%">
+<td width="33%">
 
 ### 🔬 微观模式（Micro）
 **审查**单个页面、卡片、按钮或交互。
@@ -47,11 +47,11 @@ npx skills add kafka000/mobile-design-director
 
 ```
 "审查这个页面的设计质量"
-"这个卡片组件的间距和阴影合理吗？"
+"这个卡片的间距和阴影合理吗？"
 ```
 
 </td>
-<td width="50%">
+<td width="33%">
 
 ### 🏗️ 宏观模式（Macro）
 **从零架构**一个完整的品牌体验。
@@ -61,6 +61,19 @@ npx skills add kafka000/mobile-design-director
 ```
 "帮我从零设计健身 App 的品牌体验"
 "倒推品牌设计 — 用户会炫耀什么？"
+```
+
+</td>
+<td width="34%">
+
+### 🧬 取证模式（Forensic）<sup>新</sup>
+用**第一性原理物理学公式**反推任何设计的好坏根源。
+
+输出：**9 维取证报告**，含公式评分、诊断、可落地修复方案。
+
+```
+"这个设计为什么好看？用公式反推"
+"分析这个截图的设计原理"
 ```
 
 </td>
@@ -102,12 +115,28 @@ npx skills add kafka000/mobile-design-director
 | **游戏化** | `dopamine` · `gamification` · `celebration` · `多巴胺` · `游戏化` · `惊喜感` |
 | **品牌调性** | `tone of voice` · `brand personality` · `品牌调性` · `品牌人格` · `文案` |
 
+### 🧬 取证模式 — 第一性原理反推
+
+| 意图 | 触发词 |
+|------|--------|
+| **设计分析** | `why does this look good` · `analyze this design` · `为什么好看` · `设计分析` |
+| **截图分析** | `analyze this screenshot` · `review this image` · `看看这个截图` |
+| **代码审查** | `why does this code look good/bad` · `代码设计质量` |
+| **第一性原理** | `first principles` · `design physics` · `第一性原理` · `设计物理学` |
+| **颜色公式** | `60-30-10` · `HSB` · `color ratio` · `配色公式` · `颜色比例` |
+| **网格比例** | `golden ratio` · `grid system` · `8pt grid` · `黄金比例` · `网格系统` |
+| **格式塔** | `gestalt` · `proximity` · `cognitive load` · `格式塔` · `认知负荷` |
+| **排版韵律** | `squint test` · `typographic rhythm` · `排版韵律` · `视觉路径` |
+| **容器质感** | `container quality` · `surface texture` · `容器质感` · `微质感` |
+| **数据可视化** | `chart design` · `data visualization` · `图表设计` · `数据可视化` |
+| **纵深构图** | `depth` · `3D composition` · `Z-axis` · `纵深感` · `层次感` |
+
 ---
 
-## 🧠 16 条设计原则
+## 🧠 24 条设计原则
 
 <table>
-<tr><td width="33%">
+<tr><td width="25%">
 
 ### 基础层（1–6）
 
@@ -120,7 +149,7 @@ npx skills add kafka000/mobile-design-director
 | 5 | **技术栈无关** |
 | 6 | **1px 工匠精神** |
 
-</td><td width="33%">
+</td><td width="25%">
 
 ### 视觉智能层（7–12）
 
@@ -133,7 +162,7 @@ npx skills add kafka000/mobile-design-director
 | 11 | **便当盒排版** |
 | 12 | **多色抉择过滤** |
 
-</td><td width="34%">
+</td><td width="25%">
 
 ### 体验心理层（13–16）
 
@@ -143,6 +172,21 @@ npx skills add kafka000/mobile-design-director
 | 14 | **感官微反馈** |
 | 15 | **社交货币制造** |
 | 16 | **4幕品牌闭环** |
+
+</td><td width="25%">
+
+### 第一性物理层（17–24）<sup>新</sup>
+
+| # | 原则 |
+|---|------|
+| 17 | **60-30-10 色彩法** |
+| 18 | **HSB 光影物理** |
+| 19 | **WCAG 信息清晰度** |
+| 20 | **数学比例秩序** |
+| 21 | **格式塔最低认知** |
+| 22 | **排版灰度密度** |
+| 23 | **容器微质感** |
+| 24 | **数据艺术与纵深** |
 
 </td></tr>
 </table>
@@ -165,11 +209,41 @@ npx skills add kafka000/mobile-design-director
 | 11 | 便当盒排版 | 所有内容装进圆角容器，不散养在背景上 |
 | 12 | 多色抉择过滤 | 5 关过滤：有分类？同滤镜？预算内？一姐规则？模糊规则？|
 | 13 | 米其林大厨法则 | 产品逻辑 → 去腥（消摩擦）→ 增香（注多巴胺）→ 增彩（奢侈包装）|
-| 14 | 感官微反馈 | 每次触摸 → 200ms 内产生视觉 + 触感反馈 |
+| 14 | 感官微反馈 | 每次触摸 → 100ms 内产生视觉 + 触感反馈 |
 | 15 | 社交货币制造 | 在情绪巅峰制造可分享的"炫耀海报" |
 | 16 | 4幕品牌闭环 | 场外放毒 → 走红毯 → 过日子 → 炫耀反哺 → ♻️ |
+| 17 | 60-30-10 色彩法 | 60% 基调色，30% 辅助色，10% 焦点色。均分 = 混乱 |
+| 18 | HSB 光影物理 | 暗态：S↑ B↓。亮态：S↓ B↑。禁止随意改 H |
+| 19 | WCAG 信息清晰度 | 文本 ≥ 4.5:1 对比度。装饰元素 ≤ 1.5:1 主动退让 |
+| 20 | 数学比例秩序 | 8pt 网格，乘数音阶（1.25–1.618），φ/√2 比例 |
+| 21 | 格式塔最低认知 | 亲密性 3:1，相似性 ≤5 种变体，闭合用留白代替线条 |
+| 22 | 排版灰度密度 | 眯眼测试 = 均匀灰度，无黑块无白洞 |
+| 23 | 容器微质感 | 1px 边框 + 噪点肌理 + 方向性内发光 |
+| 24 | 数据艺术与纵深 | 去坐标轴、极粗霓虹曲线、Z 轴遮挡纵深 |
 
 </details>
+
+---
+
+## 🧬 9 维取证扫描 <sup>v4.0 新增</sup>
+
+在**取证模式**中，提供一张截图或一段代码，技能将运行基于物理学的 9 维审计：
+
+```
+维度             公式来源                   核心问题
+──────────       ──────────────────────     ─────────────────────────
+1. 色彩分配       60-30-10 空间比例          颜色预算是否平衡？
+2. 色彩物理       HSB + WCAG                状态变体是否符合物理学？
+3. 数学秩序       8pt 网格 + 乘数音阶        每个尺寸是否有数学依据？
+4. 格式塔         亲密性 · 相似性            大脑解析是否零负担？
+5. 排版韵律       Tracking · 眯眼测试        黑白灰是否有节奏流动？
+6. 运动质量       弹簧 · 错层 · <100ms       交互是否有生命感？
+7. 容器质感       边框 · 噪点 · 内光          表面是否像真实材?
+8. 数据可视化     去坐标轴 · 极粗曲线         图表是艺术品还是表格？
+9. 纵深构图       Z 轴分层 · 遮挡             是否有三维纵深感？
+```
+
+每个维度打分：✅ 通过 · ⚠️ 部分 · ❌ 不通过 · ➖ 不适用
 
 ---
 
@@ -214,21 +288,12 @@ npx skills add kafka000/mobile-design-director
                              └──── ♻️ 用户分享 → 新用户发现 → 回到第1幕
 ```
 
-### 宏观模式交付物
-
-| 幕 | 交付内容 |
-|----|---------|
-| **第1幕** | 品牌人格宣言、视觉身份锚点、App Store 截图蓝图 |
-| **第2幕** | 启动→首页动画规范、品牌化权限弹窗、新手引导流程 |
-| **第3幕** | 品牌语调指南、报错/空状态插画库、触感语言地图 |
-| **第4幕** | 炫耀海报模板、庆典动画序列规范、分享基础设施 |
-
 ---
 
 ## 📱 支持技术栈
 
 | 技术栈 | 框架与库 |
-|--------|---------|
+|--------|---------| 
 | **React Native** | Expo, NativeWind, Reanimated, Gesture Handler |
 | **SwiftUI** | UIKit 互操作, SF Symbols, `matchedGeometryEffect` |
 | **Flutter** | Material 3, Cupertino, `flutter_staggered_animations` |
@@ -239,56 +304,36 @@ npx skills add kafka000/mobile-design-director
 
 ## 📚 参考文档架构
 
-8 份参考文档，按审查范围按需加载：
+15 份参考文档按模式分组，按审查范围按需加载：
 
 ```
 mobile-design-director/
-├── SKILL.md                              # 入口 — 双模式、16原则、工作流
+├── SKILL.md                              # 入口 — 三模式、24原则、工作流
 └── references/
     │
-    │  ── 视觉与排版 ──
+    │  ── 第一性原理物理学（取证模式）──
+    ├── color-physics.md                  # 60-30-10、HSB 光影物理、WCAG 对比度
+    ├── mathematical-proportion.md        # 8pt 网格、乘数音阶、黄金/白银比例
+    ├── gestalt-cognition.md              # 亲密性、相似性、闭合性
+    ├── typographic-rhythm.md             # Tracking 张力、眯眼测试、F/Z 视觉路径
+    ├── container-micro-texture.md        # 1px 边框、噪点肌理、内发光
+    ├── data-visualization-art.md         # 去坐标轴、极粗霓虹曲线、渐变体积填充
+    ├── depth-composition.md              # Z 轴分层、遮挡纵深、展陈空间
+    │
+    │  ── 视觉与排版（微观模式）──
     ├── visual-architecture.md            # 色彩 Token、80/20 分配、Z 轴表面
     ├── aesthetic-formulas.md             # 间距、字体音阶、玻璃拟态、阴影
     ├── bento-color-playbook.md           # 便当盒排版 + 多色抉择框架
     │
-    │  ── 动效与平台 ──
-    ├── motion-physics.md                 # 弹簧预设、触感反馈、交错编排
+    │  ── 动效与平台（通用）──
+    ├── motion-physics.md                 # 弹簧预设、触感反馈、交错编排、运动物理学
     ├── asset-strategy.md                 # 摄影、双轨图标、加载策略
     ├── platform-guidelines.md            # HIG、Material 3、WCAG、跨平台
     │
-    │  ── 体验架构 ──
+    │  ── 体验架构（宏观模式）──
     ├── ux-psychology-playbook.md          # 米其林大厨：去腥 / 增香 / 增彩
     └── brand-experience-loop.md          # 4幕品牌闭环 + 宏观模式蓝图
 ```
-
-<details>
-<summary><b>📖 文档详情</b></summary>
-
-### `visual-architecture.md`
-三层色彩 Token 管道（原子 → 语义 → 组件），80/20 色彩分配，深色模式高度映射（`#12121A` → `#1C1C22` → `#2A2A32`），字号极端双标（锚定 + 低语），间距哲学，亚像素表面工艺。
-
-### `aesthetic-formulas.md`
-视觉留白定理，完美四度字体音阶，玻璃拟态 2.0（含多技术栈代码），分层阴影，张力配色系统。
-
-### `bento-color-playbook.md`
-5 条便当盒排版规则（装盒、圆角、极端字号对比、奢侈留白、数据玩具化）+ 5 条多色抉择（色彩即标签、统一滤镜、80/20 预算、一姐规则、模糊规则）。含浅色模式"马卡龙"和深色模式"赛博朋克霓虹"配方。
-
-### `ux-psychology-playbook.md`
-米其林大厨三阶段框架：**去腥**（渐进式披露、撤销安全网、智能默认值），**增香**（微反馈规范含时序、游戏化指标、庆典仪式），**增彩**（光环效应、社交货币炫耀海报设计规范）。
-
-### `brand-experience-loop.md`
-4 幕全链路体验设计：**场外放毒**（人设驱动营销），**走红毯**（前 3 秒动效衔接桥），**过日子**（隐形品牌人格、品牌化报错），**炫耀反哺**（社交货币裂变闭环）。含倒推设计法、微观/宏观模式定义、品牌 4 问灵魂审计。
-
-### `motion-physics.md`
-弹簧预设（Snappy / Gentle / Bouncy / Heavy / Micro），触感反馈映射，交错入场编排，Scale-on-Press — 含 Reanimated、SwiftUI、Flutter、Compose 代码。
-
-### `platform-guidelines.md`
-Apple HIG、Material 3、WCAG 无障碍、跨平台规范（含多技术栈代码）。
-
-### `asset-strategy.md`
-双轨图像系统、摄影美术指导、图标分类、形态语言、资源加载工程。
-
-</details>
 
 ---
 
@@ -304,9 +349,6 @@ Apple HIG、Material 3、WCAG 无障碍、跨平台规范（含多技术栈代�
 ```
 这个点赞按钮的动效太死板，帮我加增香。
 ```
-```
-SwiftUI 里怎么实现 scale-on-press？
-```
 
 ### 宏观模式
 ```
@@ -315,11 +357,16 @@ SwiftUI 里怎么实现 scale-on-press？
 ```
 倒推品牌设计 — 用户会炫耀什么？从那里开始。
 ```
+
+### 🧬 取证模式
 ```
-给 Z 世代理财 App 设计一套 4 幕品牌体验蓝图。
+这个 Dribbble 截图为什么看起来这么高级？帮我用第一性原理反推。
 ```
 ```
-我需要可分享的成就海报 — 帮我设计裂变闭环。
+用 9 维取证扫描分析一下这个截图。
+```
+```
+这段代码的 UI 为什么好看？用公式解释。
 ```
 
 ---

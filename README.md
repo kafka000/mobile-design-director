@@ -7,15 +7,15 @@
 <h1 align="center">📱 Mobile Design Director</h1>
 
 <p align="center">
-  <strong>Senior UX/UI Design Director + Brand Experience Architect</strong><br/>
-  From auditing a single button to reverse-engineering an entire brand — across every mobile stack.
+  <strong>Senior UX/UI Design Director + Brand Experience Architect + First-Principles Design Physicist</strong><br/>
+  From auditing a single button to reverse-engineering entire brand experiences — and now, forensically deconstructing <em>why</em> any design works or fails — across every mobile stack.
 </p>
 
 <p align="center">
   <a href="https://agentskills.io">Agent Skills</a> ·
   <a href="#-quick-start">Install</a> ·
-  <a href="#-dual-operating-modes">Modes</a> ·
-  <a href="#-the-16-principles">Principles</a> ·
+  <a href="#-three-operating-modes">Modes</a> ·
+  <a href="#-the-24-principles">Principles</a> ·
   <a href="#-activation-triggers">Triggers</a> ·
   <a href="./README_CN.md">中文文档</a>
 </p>
@@ -34,11 +34,11 @@ Works with **35+ AI coding agents** including Claude Code, Cursor, Windsurf, Git
 
 ---
 
-## 🎯 Dual Operating Modes
+## 🎯 Three Operating Modes
 
 <table>
 <tr>
-<td width="50%">
+<td width="33%">
 
 ### 🔬 Micro Mode
 **Audit** individual screens, cards, buttons, or interactions.
@@ -46,21 +46,34 @@ Works with **35+ AI coding agents** including Claude Code, Cursor, Windsurf, Git
 Output: **Three-Tier Proposal** (Safe / Balanced / Avant-Garde) with exact pixel values, spring configs, and WCAG ratios.
 
 ```
-"Review this screen for premium design quality."
-"这个卡片组件的间距和阴影合理吗？"
+"Review this screen for premium quality."
+"这个卡片的间距和阴影合理吗？"
 ```
 
 </td>
-<td width="50%">
+<td width="33%">
 
 ### 🏗️ Macro Mode
 **Architect** an entire brand experience from a product concept.
 
-Output: **4-Act Brand Blueprint** with deliverables — working backwards from viral share moment → daily UI → onboarding → marketing.
+Output: **4-Act Brand Blueprint** — working backwards from viral share → daily UI → onboarding → marketing.
 
 ```
-"Design the entire experience for my fitness app."
+"Design the brand experience for my app."
 "帮我从零倒推品牌设计。"
+```
+
+</td>
+<td width="34%">
+
+### 🧬 Forensic Mode <sup>NEW</sup>
+**Reverse-engineer** why any design works or fails using first-principles physics.
+
+Output: **9-Dimension Forensic Report** with formula-based scoring, diagnosis, and actionable fixes.
+
+```
+"Why does this design look so good?"
+"分析这个截图的设计原理。"
 ```
 
 </td>
@@ -102,12 +115,28 @@ The skill uses **semantic intent matching** — exact phrasing is not required. 
 | **Gamification** | `dopamine` · `gamification` · `celebration` · `delight` · `多巴胺` · `游戏化` |
 | **Brand tone** | `tone of voice` · `brand personality` · `error states` · `品牌调性` · `文案` |
 
+### 🧬 Forensic Mode — First-Principles Reverse Engineering
+
+| Intent | Keywords |
+|--------|----------|
+| **Design analysis** | `why does this look good` · `analyze this design` · `为什么好看` · `设计分析` |
+| **Screenshot review** | `analyze this screenshot` · `review this image` · `看看这个截图` |
+| **Code quality** | `why does this code look good/bad` · `代码设计质量` |
+| **First principles** | `first principles` · `design physics` · `第一性原理` · `设计物理学` |
+| **Color physics** | `60-30-10` · `HSB` · `color ratio` · `配色公式` · `颜色比例` |
+| **Grid & proportion** | `golden ratio` · `grid system` · `8pt grid` · `黄金比例` · `网格系统` |
+| **Gestalt** | `gestalt` · `proximity` · `cognitive load` · `格式塔` · `认知负荷` |
+| **Typography** | `squint test` · `typographic rhythm` · `排版韵律` · `视觉路径` |
+| **Container quality** | `container quality` · `surface texture` · `容器质感` · `微质感` |
+| **Data viz** | `chart design` · `data visualization` · `图表设计` · `数据可视化` |
+| **Depth** | `depth` · `3D composition` · `Z-axis` · `纵深感` · `层次感` |
+
 ---
 
-## 🧠 The 16 Principles
+## 🧠 The 24 Principles
 
 <table>
-<tr><td width="33%">
+<tr><td width="25%">
 
 ### Foundation (1–6)
 
@@ -120,7 +149,7 @@ The skill uses **semantic intent matching** — exact phrasing is not required. 
 | 5 | **Stack-Agnostic** |
 | 6 | **1px Craftsmanship** |
 
-</td><td width="33%">
+</td><td width="25%">
 
 ### Visual Intelligence (7–12)
 
@@ -133,7 +162,7 @@ The skill uses **semantic intent matching** — exact phrasing is not required. 
 | 11 | **Bento Grid Layout** |
 | 12 | **Multi-Color Filter** |
 
-</td><td width="34%">
+</td><td width="25%">
 
 ### Experience Psychology (13–16)
 
@@ -143,6 +172,21 @@ The skill uses **semantic intent matching** — exact phrasing is not required. 
 | 14 | **Sensory Micro-Feedback** |
 | 15 | **Social Currency** |
 | 16 | **4-Act Brand Loop** |
+
+</td><td width="25%">
+
+### First-Principles Physics (17–24) <sup>NEW</sup>
+
+| # | Principle |
+|---|-----------|
+| 17 | **60-30-10 Chromatic Law** |
+| 18 | **HSB Shadow Physics** |
+| 19 | **WCAG Info Clarity** |
+| 20 | **Mathematical Proportion** |
+| 21 | **Gestalt Min Cognition** |
+| 22 | **Typographic Gray Density** |
+| 23 | **Container Micro-Texture** |
+| 24 | **Data Art & Depth** |
 
 </td></tr>
 </table>
@@ -165,11 +209,41 @@ The skill uses **semantic intent matching** — exact phrasing is not required. 
 | 11 | Bento Grid Layout | All content in rounded boxes. Nothing floats loose |
 | 12 | Multi-Color Filter | 5-gate: data job → same filter → budget → diva → blur |
 | 13 | Michelin Chef Rule | Raw logic → 去腥 (de-friction) → 增香 (dopamine) → 增彩 (premium) |
-| 14 | Sensory Micro-Feedback | Every touch → visual + haptic response within 200ms |
+| 14 | Sensory Micro-Feedback | Every touch → visual + haptic response within 100ms |
 | 15 | Social Currency | Shareable brag cards at emotional peaks |
 | 16 | 4-Act Brand Loop | Poison → Red Carpet → Daily Living → Viral Payback → ♻️ |
+| 17 | 60-30-10 Chromatic Law | 60% base tone, 30% secondary, 10% accent. Equal = chaos |
+| 18 | HSB Shadow Physics | Shadow: S↑ B↓. Highlight: S↓ B↑. Never change H randomly |
+| 19 | WCAG Info Clarity | Text ≥ 4.5:1 contrast. Decorative ≤ 1.5:1 to recede |
+| 20 | Mathematical Proportion | 8pt grid, multiplier scale (1.25–1.618), φ/√2 ratios |
+| 21 | Gestalt Min Cognition | Proximity 3:1, Similarity ≤5 unique, Closure via whitespace |
+| 22 | Typographic Gray Density | Squint test even gray, no dark clumps or white holes |
+| 23 | Container Micro-Texture | 1px border + noise grain + directional inner glow |
+| 24 | Data Art & Depth | Axis-less charts, fat neon curves, Z-axis occlusion |
 
 </details>
+
+---
+
+## 🧬 The 9-Dimension Forensic Scan <sup>NEW in v4.0</sup>
+
+In **Forensic Mode**, provide a screenshot or code and the skill runs a physics-based audit across 9 dimensions:
+
+```
+Dimension          Formula Source              Core Question
+──────────────     ──────────────────────      ────────────────────────────────
+1. Color Alloc     60-30-10 spatial ratio      Is the color budget balanced?
+2. Color Physics   HSB + WCAG                  Are state variants physically correct?
+3. Math Order      8pt grid + multiplier       Is every dimension mathematically justified?
+4. Gestalt         Proximity · Similarity      Can the brain parse this effortlessly?
+5. Typography      Tracking · Squint test      Is there a rhythmic black/white/gray flow?
+6. Motion          Spring · Stagger · <100ms   Does interaction feel alive?
+7. Container       Border · Noise · Glow       Do surfaces feel like physical materials?
+8. Data Viz        Axis-less · Fat curves       Are charts art or spreadsheets?
+9. Depth           Z-layers · Occlusion        Is there perceived three-dimensionality?
+```
+
+Each dimension gets a score: ✅ Pass · ⚠️ Partial · ❌ Fail · ➖ N/A
 
 ---
 
@@ -214,15 +288,6 @@ For **Macro Mode** — design the entire user journey as a self-reinforcing loop
                                └──── ♻️ Users share → new users discover ACT 1
 ```
 
-### Macro Mode Deliverables
-
-| Act | What You Get |
-|-----|-------------|
-| **ACT 1** | Brand persona statement, visual identity anchors, App Store screenshot blueprint |
-| **ACT 2** | Splash → Home animation spec, branded permission dialogs, onboarding flow |
-| **ACT 3** | Tone of voice guide, error/empty state library, haptic language map |
-| **ACT 4** | Brag card templates, celebration sequence specs, sharing infrastructure |
-
 ---
 
 ## 📱 Supported Stacks
@@ -239,56 +304,36 @@ For **Macro Mode** — design the entire user journey as a self-reinforcing loop
 
 ## 📚 Reference Architecture
 
-Eight reference guides, loaded on-demand based on audit scope:
+Fifteen reference guides organized by mode, loaded on-demand based on audit scope:
 
 ```
 mobile-design-director/
-├── SKILL.md                              # Entry — dual modes, 16 principles, workflows
+├── SKILL.md                              # Entry — 3 modes, 24 principles, workflows
 └── references/
     │
-    │  ── Visual & Layout ──
+    │  ── First-Principles Physics (Forensic Mode) ──
+    ├── color-physics.md                  # 60-30-10, HSB shadow/highlight, WCAG contrast
+    ├── mathematical-proportion.md        # 8pt grid, multiplier scales, golden/silver ratio
+    ├── gestalt-cognition.md              # Proximity, similarity, closure
+    ├── typographic-rhythm.md             # Tracking tension, squint test, F/Z patterns
+    ├── container-micro-texture.md        # 1px border, noise grain, inner glow
+    ├── data-visualization-art.md         # Axis-less, fat neon curves, gradient fills
+    ├── depth-composition.md              # Z-axis layers, occlusion, presentation meta
+    │
+    │  ── Visual & Layout (Micro Mode) ──
     ├── visual-architecture.md            # Color tokens, 80/20 allocation, Z-axis surfaces
     ├── aesthetic-formulas.md             # Spacing, type scale, glassmorphism, shadows
     ├── bento-color-playbook.md           # Bento layout + multi-color decision framework
     │
-    │  ── Motion & Platform ──
-    ├── motion-physics.md                 # Spring presets, haptics, choreography
+    │  ── Motion & Platform (Any Mode) ──
+    ├── motion-physics.md                 # Spring presets, haptics, choreography, physics
     ├── asset-strategy.md                 # Photography, dual-track icons, loading
     ├── platform-guidelines.md            # HIG, Material 3, WCAG, cross-platform
     │
-    │  ── Experience Architecture ──
+    │  ── Experience Architecture (Macro Mode) ──
     ├── ux-psychology-playbook.md          # Michelin Chef: 去腥 / 增香 / 增彩
     └── brand-experience-loop.md          # 4-Act loop + Macro Mode blueprint
 ```
-
-<details>
-<summary><b>📖 Reference Details</b></summary>
-
-### `visual-architecture.md`
-Three-layer color token pipeline (Primitive → Semantic → Component), 80/20 allocation, dark mode elevation (`#12121A` → `#1C1C22` → `#2A2A32`), typography tension (Anchor + Whisper), spacing philosophy, surface craftsmanship.
-
-### `aesthetic-formulas.md`
-Visual Silence theorem, Perfect Fourth type scale, Glassmorphism 2.0 with multi-stack code, layered shadows, Tension Palette color system.
-
-### `bento-color-playbook.md`
-5 Bento layout rules (box everything, round everything, extreme contrast, lavish whitespace, toyify data) + 5 multi-color decisions (color-as-label, unified filter, 80/20 budget, diva rule, blur rule). Light mode "Ice Cream" and dark mode "Cyberpunk Neon" formulas.
-
-### `ux-psychology-playbook.md`
-The Michelin Chef 3-stage framework: **去腥** (progressive disclosure, undo nets, smart defaults), **增香** (micro-feedback specs with timing, gamified metrics, celebration ceremonies), **增彩** (halo effect, social currency brag cards with design specs).
-
-### `brand-experience-loop.md`
-4-Act holistic experience design: **External Poison** (identity-driven marketing), **Red Carpet** (first 3 seconds motion bridge), **Daily Living** (invisible brand personality, branded error states), **Viral Payback** (social currency viral loop). Includes backwards-engineering method, Macro vs Micro mode definition, and the 4-Question Brand Audit.
-
-### `motion-physics.md`
-Spring presets (Snappy/Gentle/Bouncy/Heavy/Micro), haptic feedback mapping, staggered choreography, Scale-on-Press — with code for Reanimated, SwiftUI, Flutter, Compose.
-
-### `platform-guidelines.md`
-Apple HIG, Material 3, WCAG accessibility, cross-platform guidelines with multi-stack code.
-
-### `asset-strategy.md`
-Dual-track imagery, photography staging, icon separation, shape language, asset loading engineering.
-
-</details>
 
 ---
 
@@ -304,9 +349,6 @@ This page has too many colors — audit it.
 ```
 这个点赞按钮的动效太死板，帮我加增香。
 ```
-```
-How should I implement scale-on-press for this button in SwiftUI?
-```
 
 ### Macro Mode
 ```
@@ -315,11 +357,16 @@ Design the entire brand experience for my meditation app.
 ```
 帮我从零倒推品牌设计 — 用户会炫耀什么？从那里开始。
 ```
+
+### 🧬 Forensic Mode
 ```
-Build a 4-Act experience blueprint for a fintech app targeting Gen Z.
+Why does this Dribbble shot look so premium? Analyze using first principles.
 ```
 ```
-I need shareable achievement posters — design the viral loop.
+这个截图的配色为什么好看？帮我用公式反推。
+```
+```
+Run a 9-dimension audit on this screenshot.
 ```
 
 ---
